@@ -1,4 +1,4 @@
-.PHONY:	all clean
+.PHONY:	all clean help
 
 all: cesky.test cizo.test
 
@@ -16,3 +16,6 @@ cizo.chosen:	slovnik.list
 
 clean:
 	rm -f *.chosen *.draft
+
+help:
+	cat README
