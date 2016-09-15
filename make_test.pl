@@ -9,3 +9,5 @@ while (<$infile>)
   chomp;
   say $outfile "$_: ___";
 }
+close ($infile);
+close ($outfile);
