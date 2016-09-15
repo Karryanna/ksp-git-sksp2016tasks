@@ -7,6 +7,7 @@ open (my $outfile, ">", $ARGV[1]) or die("Nemůžu otevřít výstupní soubor")
 while (<$infile>)
 {
   chomp;
+  # Zadané slovíčko vypisujeme i s prostorem na cizojazyčnou verzi
   say $outfile "$_: ___";
 }
 close ($infile);
