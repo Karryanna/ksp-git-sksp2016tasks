@@ -16,6 +16,3 @@ cizo.chosen:	slovnik.list
 
 clean:
 	rm -f *.chosen *.draft
-
-greet:
-	echo "Hello world!"
