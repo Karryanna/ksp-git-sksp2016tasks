@@ -3,7 +3,7 @@
 all: cesky.test cizo.test
 
 %.test:	%.draft
-	perl make_test.pl < $< > $@;
+	perl make_test.pl $< $@;
 
 %.draft:	%.chosen
 	perl make_draft.pl < $< > $@;
