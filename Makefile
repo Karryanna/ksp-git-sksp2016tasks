@@ -1,4 +1,4 @@
-.PHONY:	all clean greet
+.PHONY:	all clean
 
 all: cesky.test cizo.test
 
