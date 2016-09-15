@@ -1,0 +1,13 @@
+clone	naklonování repozitáře
+add	přidání do indexu
+commit	commitnutí indexu
+push	odeslání commitu
+pull	stažení změn
+checkout <větev>	přepnutí se na větev
+branch -a	výpis všech větví
+branch <větev>	založení větve
+cherry-pick
+reabse
+merge	slití dvou větví
+blame
+log
