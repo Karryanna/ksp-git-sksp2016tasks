@@ -4,10 +4,12 @@ commit	commitnutí indexu
 push	odeslání commitu
 pull	stažení změn
 checkout <větev>	přepnutí se na větev
+checkout <commit>	přepnutí repozitáře do stavu v daném commitu
 branch -a	výpis všech větví
 branch <větev>	založení větve
 cherry-pick
-reabse
+reabse	přeorganizování commitů
 merge	slití dvou větví
 blame
 log
+help	nápověda :)
