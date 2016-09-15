@@ -1,9 +1,11 @@
 clone	naklonování repozitáře
 add	přidání do indexu
 commit	commitnutí indexu
+  --amend	přiřazení změn k poslednímu commitu (jen před pushem!)
 push	odeslání commitu
 pull	stažení změn
 checkout <větev>	přepnutí se na větev
+<<<<<<< Updated upstream
 checkout <commit>	přepnutí repozitáře do stavu v daném commitu
 branch -a	výpis všech větví
 branch <větev>	založení větve
@@ -13,3 +15,13 @@ merge	slití dvou větví
 blame
 log
 help	nápověda :)
+=======
+checkout HEAD <soubor>	vrácení souboru do stavu v HEADu
+branch -a	výpis všech větví
+branch <větev>	založení větve
+cherry-pick
+rebase
+merge	slití dvou větví
+blame
+log	vypsání všech commitů v historii, omezitelné na konkrétní soubor(y)
+>>>>>>> Stashed changes
